@@ -98,7 +98,7 @@ year_rain$year <- as.numeric(year_rain$year)
 ################################################################################
 ui <- fluidPage(
   titlePanel('Tempature and Rainfall Trends in Sewanee Tennesse'),
-  p('Explore how tempatures and rainfall trends have changed over the years in Sewaneee, TN.'),
+  p('Explore how tempatures and rainfall trends have changed over the years in Sewanee, TN.'),
   helpText('Us the "Over the years" tabs to look at over all trends thought the years. Use the "Compare" tabs to compare trends of specific years'),
   tabsetPanel(
     tabPanel(h5('Tempature Over the Years'),
